@@ -464,3 +464,25 @@ function modifiedSum(a, n) {
 }
 
 console.log(modifiedSum([1, 2, 3], 3))
+
+
+//Check if property exists in object//
+
+function checkPropertyExistInObject (obj, str) {
+  return obj.hasOwnProperty(str)
+}
+
+
+console.log(checkPropertyExistInObject({a:1,b:2,c:3},'b'))
+
+
+// function myFunction(a, b) {
+//   let obj={};
+  
+//   a.forEach((key, i) => obj[key] = b[i]);
+  
+  
+//   return obj
+// }
+
+//myFunction(['a','b','c'],[1,2,3]) //expected: {a:1,b:2,c:3}
